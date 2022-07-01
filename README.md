@@ -3,11 +3,7 @@ This repository contains an example project that demonstrates the
 functionality of the [lemon.markets](https://www.lemon.markets/)
 Market Data API.
 ## Project Structure
-This project contains a MarketData model, which you can find in the 
-**models** folder. In there, we define all relevant functions 
-for the Market Data API.
-
-All helper functions are defined in the helper.py file. 
+This project uses the lemon.markets Python SDK to make calls to the market data API endpoints.
 
 In the main file, we define functions for the actual requests with the 
 /venues/, /instruments/, /quotes/, /ohlc/, and /trades/ endpoints. 
@@ -21,7 +17,8 @@ If you want to test locally, you need to define a number of environment variable
 
 | ENV Variable    |               Explanation               |  
 |-----------------|:---------------------------------------:|
-| DATA_API_KEY    |        Your Market Data API Key         |     |
+| DATA_API_KEY    |        Your Market Data API Key         |
+| TRADING_API_KEY |          Your Trading API Key           |
 | MIC             | Market Identifier Code of Trading Venue |
 
 
