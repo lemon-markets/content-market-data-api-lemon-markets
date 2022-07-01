@@ -19,11 +19,10 @@ all required packages through the provided requirements.txt file.
 ### Set environment variables
 If you want to test locally, you need to define a number of environment variables.
 
-| ENV Variable   |      Explanation      |  
-|----------|:-------------:|
-| TOKEN_KEY |  Your Access Token |
-|BASE_URL | Base URL of our Market Data API |
-|MIC| Market Identifier Code of Trading Venue|
+| ENV Variable    |               Explanation               |  
+|-----------------|:---------------------------------------:|
+| DATA_API_KEY    |        Your Market Data API Key         |     |
+| MIC             | Market Identifier Code of Trading Venue |
 
 
 ## Deploy to Heroku
