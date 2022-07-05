@@ -38,7 +38,7 @@ def get_trades():
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    get_trades()
+    get_venues()
     get_instruments()
     get_quotes()
     get_ohlc()
